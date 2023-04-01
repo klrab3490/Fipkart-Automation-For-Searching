@@ -1,0 +1,126 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1234,1202" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1137" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="productName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter Product Name :  " Title="Flipkart Data Fetching">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[productName]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Book" sap:VirtualizedContainerService.HintSize="484,747" InteractionMode="DebuggerApi" ScopeGuid="5826d4ac-763d-4223-97dd-c4f0f8f3cf35" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,530">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" ScopeIdentifier="5826d4ac-763d-4223-97dd-c4f0f8f3cf35" Text="[productName]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.flipkart.com/" CvElementArea="456, 163, 566, 39" CvTextArea="471, 174, 231, 17" CvTextArgument="Search for products, brands and more" CvType="InputBox" DesignTimeRectangle="456, 164, 522, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='_3704LK' aaname='Search for products, brands and more' /&gt;" Guid="b0564dc0-9db9-4904-a1ce-90fb9206214f" ImageBase64="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" InformativeScreenshot="5143fba86895c4d5efdcc9b54dcc145c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,157" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5826d4ac-763d-4223-97dd-c4f0f8f3cf35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.flipkart.com/" DesignTimeRectangle="985, 171, 24, 24" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' /&gt;" Guid="c35c53b6-c2d8-4da5-9e3c-fd0a688653c8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVEhL7ZQ7TgMxEEA5Dg1lekQuwAXgAmmRoIAKQUkDghIqRAWiDEqbAlFS0FBCi8iSD+E35C07jp1sxpZCRMOTrEjr8Tx77MmczJi/Ezw8fcruZU9Wj9pS2WrJ8t6L1E46cnHTLyLSKBXs13syv/Y8cVR3Mrl7/CiibcYEG2ddl6iy2cpPgZCxctgezg1OlSIJBI3bN5cAUdb9KmaGXN+/52JiOEmMQLA0WMBCdmqBRDdyHrkTJ+C4uogEMbRcteNO8aUcJ2AnKkhBHwJ3YeEE/stJITXeCfy6ll3uKLwuYukPCycgqQrYnQWxlIZYRBZOANoDsTfu9wodbxEICNY3juTg6jUoF2Xkr0OTL25n0XIGAmDnKrHGwvrPL3dgScYEwEn8MviDZjxt9vPE+s2SlAoUFlEWLp0+8e+FuRSJKYiRIplKAL6Eso4ytQCQTOqdXxFY/AsiiHwD9QZfnYeFaj4AAAAASUVORK5CYII=" InformativeScreenshot="af8d1ace7ae6c7f1bf92bc5a1e2a7028.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPFSURBVFhHxZZbSBRhFMc/Q0i6vIQVIWW0FZVB+lYIJb1kVE8F2Us3eukl8aGLWpGFdAEvZFAUEUFR+CBBN7ttmlne1rumLu5u6uquOu6u2+646+6cvjPr0DR7atdLNPBjhu+c8/3Pd74z3wxTLnCxDLCzR2Bh1f8UriG52cEp2V8XOJlTxhADanx1i8Betey3sWiQY+pZuM3DHMiU7K/LZ48TjDWJoSAVHa918Kx4C4hfF4TZ/sRo9RI5xqxfGWYz1q0G/9h8YUo2dJkMiSfa9Gt9zW/XA1RzRxWTVXFg+7AibDwSVh6Dsdpx1EAt1JTFzU2rnnZ+0oECdxr8l6i1UJuBj2f2H4mYQKAlk9+Lw8YjIYnPp2Jpu0LkCjhKQAp+pG1/QQpaQHLnkDY1EROQJvYDSA4IepeTdorARAoABEN3wq4mqh4I+FvB57lN2ij84kMI+mtJm5aoEvCMpctVEF3FIHnnkT6INMHA68znq/eGYggfLVElgAgDe+V9xWq4hWzwCCkw6YqV8QhJ4B7JhEmxlvvYwDFwiJyDIuoEEKFvDTgGL8tJ4B7jSkMEeck7wWUvBLtps1wJJQaf3a74EadD14uobci0EkAmf8TyFcbDULcOrF2pMviMY2hDHxRp69puOnW3aEh37gOw07XAzjTIHCp52qeeb9oJRAJXe+zmbSHmbCPE5LaTuFzreVeH/Oc0ARRPzSvzUaJqDMYDeiWGYVfPBdiMBwseuChBJOFCo7Qxrw72FL0ZGROSmpU4njbPZA54VZlhYjmtYcK7Ct8NjtqS+atDx+GPCMwWXH3albIJrfjqSwYx4FhopWIUGIzxg2WWDPRsslJN96D84mfKXw1/uXkms+SF/kiPVhyxmrbWUP5q5iSB3Pv5g1QCftvS75S/GgYj/EcxAgEbC3j6lw0PdCWZzO0pRi3UqxefY5AUO8aBPSZIzf3XBJzfN1iwvNkPb/Xuvv5yHCeV91qFfMIR3Y9jyumHdHfs/EppRFUBaXi+E8t578Wlb1qhaOnqSK+i5mYwzLsxApI9zu3uX2esqc9opSaPBrkfiLkZ2HgzKPB9wr3G0ls6d7Sh4KvKk8248rwnt0zH75QO7SssF9Ju6McV8ISjBLddrXSjHU++iuqjX37TUcF/4PnDLKCO38XnW4Pc5tX6UjDo43sxQwIWBvi51Sawt6DcTPlTMDDxhxkitCSMUifgtceFNZQ/BYPueSIHZkLT+7Re6hWseHekgvInEJnUzrI4IgemS1npYTN+YrXY6pIbKH8NXJNl/QQY2SMPYJ5++AAAAABJRU5ErkJggg==" InformativeScreenshot="f37cf202dc5e2d27f50850e47fe07359.jpg" Selector="&lt;html app='msedge.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" Title="Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!" Url="https://www.flipkart.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
